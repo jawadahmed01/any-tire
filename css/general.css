@@ -23,12 +23,18 @@
   position: absolute;
   bottom: 90px;
   gap: 30px;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 #hero .row .col-3 img {
   width: 100px;
-  margin: auto;
+}
+#hero .row .col-3 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #hero .row .col-3 .hero-icon {
   text-align: left;
@@ -36,10 +42,24 @@
 #hero .row .col-3 h1 {
   padding-bottom: 10px;
   text-transform: uppercase;
+  width: 100%;
 }
 #hero .row .col-3 p {
   text-align: left;
-  margin-left: 3px;
+  margin-left: 10px;
+  width: 100%;
+}
+#hero .hero-icon-first {
+  width: 150px !important;
+}
+#hero .hero-title-third {
+  transform: translateY(-10px);
+}
+#hero .hero-para-third {
+  transform: translateY(-10px);
+}
+#hero .hero-icon-third {
+  transform: translateY(-10px);
 }
 /* ==============================
    Specification Section
@@ -359,6 +379,18 @@ footer img {
   #hero .row .col-3 p {
     text-align: center;
     margin-left: 0px;
+  }
+  #hero .hero-icon-first {
+    width: 100px !important;
+  }
+  #hero .hero-title-third {
+    transform: translateY(0px);
+  }
+  #hero .hero-para-third {
+    transform: translateY(0px);
+  }
+  #hero .hero-icon-third {
+    transform: translateY(0px);
   }
   /* ==============================
    Specification Section
